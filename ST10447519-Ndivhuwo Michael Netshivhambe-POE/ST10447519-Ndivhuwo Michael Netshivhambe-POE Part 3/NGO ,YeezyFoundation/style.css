@@ -1,0 +1,112 @@
+*{
+    margin-right: 0;
+    padding: 0;
+    font-family: border-box;
+    box-sizing: 'Poppins', sans-serif;
+}
+.hero_area{
+    width: 85%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover 50%;
+    background-color: orange;
+    padding: 100px 10%;
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+nav{
+   padding: 50px 20%; 
+   display: inline-block;
+   align-items: center;
+   justify-content: space-between;
+}
+.logo{
+    width: 300px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+.login-btn{
+    text-decoration: none;
+    color: blue;
+    margin-right: 15px;
+    padding: 5px;
+    font-weight: 400;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px ;
+    color: #fff;
+    background-image: linear-gradient(45deg,blue,blue);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+    display: inline- block;
+}
+.content h1{
+    font-size: 50px;
+    color: blue;
+    display: inline-block;
+    position: right;
+    margin-right: 50px;
+}
+.content p{
+    margin: 10px 0 30px;
+    padding: 10px;
+    text-align: justify;
+    position: bottom;
+    color: blue;
+    display: inline-block;
+    font-size: large;
+
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+
+}
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+.feature-img{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+div{
+    white-space: normal;
+}
+/*container holding the image and the text*/
+.container {
+    position: relative;
+    text-align: center;
+    color: white
+}
